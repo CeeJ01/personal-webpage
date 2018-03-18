@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+img {
+	height: 100%;
+	width: 100%;
+}
+
+.container {
+	display: flex;
+	flex-direction: row;
+	margin: 9rem;
+
+}
+
+/* INTRODUCTION: */
+
+/* LEFT COLUMN: */
+
+.left-column {
+	width: 30%;
+	min-width: 350px;
+}
+
+
+
+/* RIGHT COUMN: */
+
+.right-column {
+	padding-left: 7rem;
+	width: 52%;
+}
+
+.greeting-text {
+	font-size: 2em;
+}
+
+
+.img {
+
+}
