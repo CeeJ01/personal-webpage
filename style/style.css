@@ -1,17 +1,41 @@
+
+
 * {
 	margin: 0;
 	padding: 0;
 }
 
+h1,h2,h3 {
+	font-family: 'Butler', sans-serif;
+	margin-bottom: 10px;
+	
+}
+
+p {
+	font-family: 'Slabo 27px', serif;
+	line-height: 36px;
+	margin: 2.1vw 0;
+}
+
+@font-face {
+font-family: 'Butler';
+src:
+    local('Butler'),
+    local('Butler_Regular'),
+    url('style/fonts/Butler_Regular.otf');
+}
 img {
 	height: 100%;
 	width: 100%;
 }
 
+.body {
+	font-size: 100%;
+}
 .container {
 	display: flex;
 	flex-direction: row;
-	margin: 9rem;
+	margin: 9rem 12rem;
 
 }
 
@@ -20,7 +44,7 @@ img {
 /* LEFT COLUMN: */
 
 .left-column {
-	width: 30%;
+	width: 40%;
 	min-width: 350px;
 }
 
@@ -30,14 +54,23 @@ img {
 
 .right-column {
 	padding-left: 7rem;
+	padding-top: 2rem;
 	width: 52%;
+	min-width: 700px;
 }
 
 .greeting-text {
-	font-size: 2em;
+	font-size: 2vw;
 }
 
+#i-am:hover {
+	color: maroon;
+	border-bottom: 5px solid #e9003a;
+}
 
-.img {
+/* NETWORK LINKS: */
 
+.network-links {
+	display: flex;
+	flex-direction: row;
 }

@@ -7,10 +7,16 @@
 	<meta name="description" content="Web Developer">
 	<!--CSS––––––––––––––––––––––––CSS––––––––––––––––––––––––CSS-->
 	<link rel="stylesheet" type="text/css" href="style/style.css">
-	<!--–––––––––––––––––––––––– ––––––––––––––––––––––––-->
+	<!--FONTS––––––––––––––––––––––––FONTS––––––––––––––––––––––––FONTS-->4
+	<link href="https://fonts.googleapis.com/css?family=Arvo" rel="stylesheet"> 
+	 <link href="https://fonts.googleapis.com/css?family=Slabo+27px" rel="stylesheet"> 
+
+	 <link href='style/fonts/Butler_Bold.otf' rel='stylesheet' type='text/css'>
+
+
 </head>
 <body>
-	<div class="container">
+	<div class="container about-me">
 		<div class="left-column">
 			<div class="image profile-image">
 				<img src="images/IMG_0217bw.png">
@@ -20,15 +26,26 @@
 		<div class="right-column">
 				<div class="text greeting-text">	
 				<h3 id="hello-text">Hi there!</h3>
-				<p>My name is Colton Carmean.</p>
-				<p>but most people call me CJ. Welcome to my website!</p>
+				<p>My name is <span id="i-am">Colton Carmean</span>, welcome to my website!</p>
 				<p>I am a Web Developer living in Fort Collins, CO, currently working on improving websites and building side projects.</p>
 			</div>
-		</div>	
+		</div>
 	</div>
-	<h1>My Networks:</h1>
-	<p>My LinkedIn: </p>
-	<p>My GitHub:</p>
-	<p>My HackerRank:</p>
+	<div class="container network-links">
+		<div class="network-links">
+			<div class="github-link">
+				<p>github</p>
+			</div>
+
+			<div class="linkedin-link">
+				<p>linkedin</p>
+			</div>
+
+			<div class="hackerrank-link">
+				<p>hackerrank</p>
+			</div>
+			
+		</div>
+	</div>
 </body>
 </html>
